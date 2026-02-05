@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowTrendUp } from "@fortawesome/free-solid-svg-icons";
-import logo from "/src/assets/logo.png";
+import logo from "../assets/logo.png";
 const Navbar = () => {
   return (
     <section>
