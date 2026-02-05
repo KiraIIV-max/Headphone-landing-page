@@ -1,13 +1,13 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowTrendUp } from "@fortawesome/free-solid-svg-icons";
-
+import logo from "/src/assets/logo.png";
 const Navbar = () => {
   return (
     <section>
       <nav className="flex flex-row justify-between items-center p-4 pt-6">
         <div className="flex items-center space-x-2">
-          <img src="/src/assets/logo.png" alt="Logo" className="w-12 h-12" />
+          <img src={logo} alt="Logo" className="w-12 h-12" />
           <p className="font-bold uppercase font-serif">SoundArc</p>
         </div>
         <div className="flex">
